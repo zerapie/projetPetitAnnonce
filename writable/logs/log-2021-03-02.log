@@ -1,0 +1,16 @@
+CRITICAL - 2021-03-02 06:16:07 --> syntax error, unexpected token "}", expecting ";"
+#0 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('/Users/zerapie/...')
+#1 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-02 06:57:54 --> syntax error, unexpected token "}", expecting ";"
+#0 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/Router/Router.php(170): CodeIgniter\Router\Router->autoRoute('home')
+#1 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(816): CodeIgniter\Router\Router->handle('home')
+#2 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /Users/zerapie/projet-codeigniter/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/projet-codeigniter/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
