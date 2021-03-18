@@ -1,7 +1,7 @@
     <!-- BEGIN: Page Main-->
     <div id="main">
         <div class="row">
-            <div id="breadcrumbs-wrapper" data-image="../../../app-assets/images/gallery/breadcrumb-bg.jpg">
+            <div id="breadcrumbs-wrapper" data-image="<?php echo base_url('app-assets/images/gallery/breadcrumb-bg.jpg') ;?>">
                 <!-- Search for small screen-->
                 <div class="container">
                     <div class="row">
@@ -216,6 +216,7 @@
                                 </div>
                             </div>
                             <div class="col s12 m12 l9 pr-0">
+                                <!-- grand vue article -->
                                 <div class="col s12">
                                     <div class="card animate fadeUp">
                                         <div class="card-badge"><a class="white-text"> <b>On Offer</b> </a></div>
@@ -246,16 +247,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- petit vue article -->
                                 <div class="col s12 m4 l4">
-                                    <div class="card animate fadeLeft">
-                                        <div class="card-badge"><a class="white-text"> <b>On Offer</b> </a></div>
-                                        <div class="card-content">
-                                            <p>Smartwatches</p>
-                                            <span class="card-title text-ellipsis">Smartwatch 2.0 LTE Wifi</span>
-                                            <img src="../../../app-assets/images/cards/watch-2.png" class="responsive-img" alt="">
-                                            <div class="display-flex flex-wrap justify-content-center">
-                                                <h5 class="mt-3">$399.00</h5>
-                                                <a class="mt-2 waves-effect waves-light gradient-45deg-deep-purple-blue btn btn-block modal-trigger z-depth-4" href="#modal1">View</a>
                                     <div class="card animate fadeRight">
                                         <div class="card-content">
                                             <p>Smartphone</p>
@@ -268,20 +261,6 @@
                                         </div>
                                     </div>
                                     <!-- Modal Structure -->
-                                    <div id="modal1" class="modal">
-                                        <div class="modal-content pt-2">
-                                            <div class="row" id="product-one">
-                                                <div class="col s12">
-                                                    <a class="modal-close right"><i class="material-icons">close</i></a>
-                                                </div>
-                                                <div class="col m6 s12">
-                                                    <img src="../../../app-assets/images/cards/watch-2.png" class="responsive-img" alt="">
-                                                </div>
-                                                <div class="col m6 s12">
-                                                    <p>Smartwatches</p>
-                                                    <h5>Smartwatch 2.0 LTE Wifi</h5>
-                                                    <span class="new badge left ml-0 mr-2" data-badge-caption="">4.2 Star</span>
-                                                    <p>Availability: <span class="green-text">36 Item Available</span></p>
                                     <div id="modal3" class="modal">
                                         <div class="modal-content">
                                             <a class="modal-close right"><i class="material-icons">close</i></a>
@@ -299,13 +278,10 @@
                                                     <ul class="list-bullet">
                                                         <li class="list-item-bullet">Accept SIM card and call</li>
                                                         <li class="list-item-bullet">Take photos</li>
-                                                        <li class="list-item-bullet">Take photos</li>
                                                         <li class="list-item-bullet">Make calling instead of mobile phone</li>
                                                         <li class="list-item-bullet">Sync music play and sync control music</li>
                                                         <li class="list-item-bullet">Sync Facebook,Twiter,emailand calendar</li>
                                                     </ul>
-                                                    <h5>$399.00 <span class="prise-text-style ml-2">$459.00</span></h5>
-                                                    <h5>$899.00</h5>
                                                     <h5>$899.00</h5>
                                                     <a class="waves-effect waves-light btn gradient-45deg-deep-purple-blue mt-2 mr-2">ADD TO CART</a>
                                                     <a class="waves-effect waves-light btn gradient-45deg-purple-deep-orange mt-2">BUY NOW</a>
@@ -314,6 +290,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <!-- Pagination -->
                                 <div class="col s12 center">
                                     <ul class="pagination">
@@ -341,7 +318,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!-- START RIGHT SIDEBAR NAV -->
+                    </div>
+                    <!-- START RIGHT SIDEBAR NAV - message haut/droit ecran -->
                     <aside id="right-sidebar-nav">
                         <div id="slide-out-right" class="slide-out-right-sidenav sidenav rightside-navigation">
                             <div class="row">
@@ -840,13 +818,13 @@
                             </li>
                         </ul>
                     </aside>
-                    <!-- END RIGHT SIDEBAR NAV -->
+                    <!-- END RIGHT SIDEBAR NAV - message haut/droit ecran -->
                     <div style="bottom: 50px; right: 19px;" class="fixed-action-btn direction-top"><a class="btn-floating btn-large gradient-45deg-light-blue-cyan gradient-shadow"><i class="material-icons">add</i></a>
                         <ul>
-                            <li><a href="css-helpers.html" class="btn-floating blue"><i class="material-icons">help_outline</i></a></li>
-                            <li><a href="cards-extended.html" class="btn-floating green"><i class="material-icons">widgets</i></a></li>
-                            <li><a href="app-calendar.html" class="btn-floating amber"><i class="material-icons">today</i></a></li>
-                            <li><a href="app-email.html" class="btn-floating red"><i class="material-icons">mail_outline</i></a></li>
+                            <li><a href="#" class="btn-floating blue"><i class="material-icons">help_outline</i></a></li>
+                            <li><a href="#" class="btn-floating green"><i class="material-icons">widgets</i></a></li>
+                            <li><a href="#" class="btn-floating amber"><i class="material-icons">today</i></a></li>
+                            <li><a href="#" class="btn-floating red"><i class="material-icons">add_shopping_cart</i></a></li>
                         </ul>
                     </div>
                 </div>
