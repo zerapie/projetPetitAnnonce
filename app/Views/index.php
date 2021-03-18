@@ -223,7 +223,7 @@
                                         <div class="card-content">
                                             <div class="row" id="product-four">
                                                 <div class="col m6 s12">
-                                                    <img src="../../../app-assets/images/cards/remote.png" class="responsive-img" alt="">
+                                                    <img src="<?php echo base_url('app-assets/images/cards/remote.png') ;?>" class="responsive-img" alt="">
                                                 </div>
                                                 <div class="col m6 s12">
                                                     <p>Powerbank</p>
@@ -253,7 +253,7 @@
                                         <div class="card-content">
                                             <p>Smartphone</p>
                                             <span class="card-title">iPhone x</span>
-                                            <img src="../../../app-assets/images/cards/iphone-x.png" class="responsive-img" alt="">
+                                            <img src="<?php echo base_url('app-assets/images/cards/iphone-x.png') ;?>" class="responsive-img" alt="">
                                             <div class="display-flex flex-wrap justify-content-center">
                                                 <h5 class="mt-3">$899.00</h5>
                                                 <a class="mt-2 waves-effect waves-light gradient-45deg-deep-purple-blue btn btn-block modal-trigger z-depth-4" href="#modal3">View</a>
@@ -266,7 +266,7 @@
                                             <a class="modal-close right"><i class="material-icons">close</i></a>
                                             <div class="row" id="product-three">
                                                 <div class="col m6 s12">
-                                                    <img src="../../../app-assets/images/cards/iphone-x.png" class="responsive-img" alt="">
+                                                    <img src="<?php echo base_url('app-assets/images/cards/iphone-x.png') ;?>" class="responsive-img" alt="">
                                                 </div>
                                                 <div class="col m6 s12">
                                                     <p>Smartphone</p>
@@ -290,7 +290,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <!-- Pagination -->
                                 <div class="col s12 center">
                                     <ul class="pagination">
