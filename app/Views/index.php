@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
     <!-- BEGIN: Page Main-->
     <div id="main">
         <div class="row">
@@ -251,7 +247,6 @@
                                     </div>
                                 </div>
                                 <div class="col s12 m4 l4">
-<<<<<<< Updated upstream
                                     <div class="card animate fadeLeft">
                                         <div class="card-badge"><a class="white-text"> <b>On Offer</b> </a></div>
                                         <div class="card-content">
@@ -261,7 +256,6 @@
                                             <div class="display-flex flex-wrap justify-content-center">
                                                 <h5 class="mt-3">$399.00</h5>
                                                 <a class="mt-2 waves-effect waves-light gradient-45deg-deep-purple-blue btn btn-block modal-trigger z-depth-4" href="#modal1">View</a>
-=======
                                     <div class="card animate fadeRight">
                                         <div class="card-content">
                                             <p>Smartphone</p>
@@ -270,12 +264,10 @@
                                             <div class="display-flex flex-wrap justify-content-center">
                                                 <h5 class="mt-3">$899.00</h5>
                                                 <a class="mt-2 waves-effect waves-light gradient-45deg-deep-purple-blue btn btn-block modal-trigger z-depth-4" href="#modal3">View</a>
->>>>>>> Stashed changes
                                             </div>
                                         </div>
                                     </div>
                                     <!-- Modal Structure -->
-<<<<<<< Updated upstream
                                     <div id="modal1" class="modal">
                                         <div class="modal-content pt-2">
                                             <div class="row" id="product-one">
@@ -290,7 +282,6 @@
                                                     <h5>Smartwatch 2.0 LTE Wifi</h5>
                                                     <span class="new badge left ml-0 mr-2" data-badge-caption="">4.2 Star</span>
                                                     <p>Availability: <span class="green-text">36 Item Available</span></p>
-=======
                                     <div id="modal3" class="modal">
                                         <div class="modal-content">
                                             <a class="modal-close right"><i class="material-icons">close</i></a>
@@ -303,24 +294,19 @@
                                                     <h5>iPhone x</h5>
                                                     <span class="new badge left ml-0 mr-2" data-badge-caption="">4.2 Star</span>
                                                     <p>Availability: <span class="green-text">Available</span></p>
->>>>>>> Stashed changes
                                                     <hr class="mb-5">
                                                     <span class="vertical-align-top mr-4"><i class="material-icons mr-3">favorite_border</i>Wishlist</span>
                                                     <ul class="list-bullet">
                                                         <li class="list-item-bullet">Accept SIM card and call</li>
-<<<<<<< Updated upstream
-=======
                                                         <li class="list-item-bullet">Take photos</li>
->>>>>>> Stashed changes
+                                                        <li class="list-item-bullet">Take photos</li>
                                                         <li class="list-item-bullet">Make calling instead of mobile phone</li>
                                                         <li class="list-item-bullet">Sync music play and sync control music</li>
                                                         <li class="list-item-bullet">Sync Facebook,Twiter,emailand calendar</li>
                                                     </ul>
-<<<<<<< Updated upstream
                                                     <h5>$399.00 <span class="prise-text-style ml-2">$459.00</span></h5>
-=======
                                                     <h5>$899.00</h5>
->>>>>>> Stashed changes
+                                                    <h5>$899.00</h5>
                                                     <a class="waves-effect waves-light btn gradient-45deg-deep-purple-blue mt-2 mr-2">ADD TO CART</a>
                                                     <a class="waves-effect waves-light btn gradient-45deg-purple-deep-orange mt-2">BUY NOW</a>
                                                 </div>
@@ -328,10 +314,6 @@
                                         </div>
                                     </div>
                                 </div>
-<<<<<<< Updated upstream
-                                
-=======
->>>>>>> Stashed changes
                                 <!-- Pagination -->
                                 <div class="col s12 center">
                                     <ul class="pagination">
@@ -872,8 +854,4 @@
             </div>
         </div>
     </div>
-<<<<<<< Updated upstream
     <!-- END: Page Main-->
-=======
-    <!-- END: Page Main-->
->>>>>>> Stashed changes

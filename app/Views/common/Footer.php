@@ -24,10 +24,7 @@
     <!-- BEGIN PAGE LEVEL JS-->
     <script src="<?php echo base_url('app-assets/js/scripts/advance-ui-modals.js') ;?>"></script>
     <script src="<?php echo base_url('app-assets/js/scripts/eCommerce-products-page.js') ;?>"></script>
-<<<<<<< Updated upstream
     <script src="<?php echo base_url('app-assets/') ;?>"></script>
-=======
->>>>>>> Stashed changes
     <!-- END PAGE LEVEL JS-->
 </body>
 
