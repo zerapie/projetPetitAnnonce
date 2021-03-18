@@ -8,19 +8,23 @@
 
     <!-- END: Footer-->
     <!-- BEGIN VENDOR JS-->
-    <script src="../../../app-assets/js/vendors.min.js"></script>
+    <script src="<?php echo base_url('app-assets/js/vendors.min.js') ;?>"></script>
     <!-- BEGIN VENDOR JS-->
+
     <!-- BEGIN PAGE VENDOR JS-->
-    <script src="../../../app-assets/vendors/noUiSlider/nouislider.min.js"></script>
+    <script src="<?php echo base_url('app-assets/vendors/noUiSlider/nouislider.min.js') ;?>"></script>
     <!-- END PAGE VENDOR JS-->
+
     <!-- BEGIN THEME  JS-->
-    <script src="../../../app-assets/js/plugins.js"></script>
-    <script src="../../../app-assets/js/search.js"></script>
-    <script src="../../../app-assets/js/custom/custom-script.js"></script>
+    <script src="<?php echo base_url('app-assets/js/plugins.js') ;?>"></script>
+    <script src="<?php echo base_url('app-assets/js/search.js') ;?>"></script>
+    <script src="<?php echo base_url('app-assets/js/custom/custom-script.js') ;?>"></script>
     <!-- END THEME  JS-->
+
     <!-- BEGIN PAGE LEVEL JS-->
-    <script src="../../../app-assets/js/scripts/advance-ui-modals.js"></script>
-    <script src="../../../app-assets/js/scripts/eCommerce-products-page.js"></script>
+    <script src="<?php echo base_url('app-assets/js/scripts/advance-ui-modals.js') ;?>"></script>
+    <script src="<?php echo base_url('app-assets/js/scripts/eCommerce-products-page.js') ;?>"></script>
+    <script src="<?php echo base_url('app-assets/') ;?>"></script>
     <!-- END PAGE LEVEL JS-->
 </body>
 
