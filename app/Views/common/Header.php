@@ -82,7 +82,11 @@
                         <li><a class="grey-text text-darken-1" href="#"><i class="material-icons">chat_bubble_outline</i> Chat</a></li>
                         <li><a class="grey-text text-darken-1" href="#"><i class="material-icons">help_outline</i> Help</a></li>
                         <li class="divider"></li>
+<<<<<<< Updated upstream
                         <li><a class="grey-text text-darken-1" href="#"><i class="material-icons">lock_outline</i> Lock</a></li>
+=======
+                        <li><a class="grey-text text-darken-1" href="user-lock-screen.html"><i class="material-icons">lock_outline</i> Lock</a></li>
+>>>>>>> Stashed changes
                         <li><a class="grey-text text-darken-1" href="login"><i class="material-icons">keyboard_tab</i> Logout</a></li>
                     </ul>
                 </div>
