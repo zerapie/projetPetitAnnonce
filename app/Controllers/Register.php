@@ -17,7 +17,11 @@ class Register extends Controller
         //include helper form
         helper(['form']);
         $data = [];
+        
+        echo view('common/Header');
         echo view('register', $data);
+        echo view('common/Footer');
+
     }
  
     public function save()

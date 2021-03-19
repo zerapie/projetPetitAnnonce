@@ -36,8 +36,8 @@ class AddShop extends Controller
             'ccomment0'     => 'required',
             'prix0'         => 'required'
         ];
-        echo 'teste';
-        echo $this->request->getVar('nom_article');
+        // echo 'teste';
+        // echo $this->request->getVar('nom_article');
          
         if($this->validate($rules)){
             $model = new AddShopModel();
@@ -48,9 +48,9 @@ class AddShop extends Controller
                 'description'   => $this->request->getVar('ccomment0'),
                 'prix'          => $this->request->getVar('prix0')
             ];
-            echo 'teste2';
+            // echo 'teste2';
             $model->save($data);
-            return redirect()->to('/index');
+            return redirect()->to('/home');
         }else{
             $data['validation'] = $this->validator;
 
@@ -58,7 +58,7 @@ class AddShop extends Controller
             echo view('AddShop', $data);
             echo view('common/Footer');
             
-            echo 'teste3';
+            // echo 'teste3';
         }
          
     }

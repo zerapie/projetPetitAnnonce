@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('app-assets/css/themes/vertical-dark-menu-template/style.css') ;?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('app-assets/css/pages/eCommerce-products-page.css') ;?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('app-assets/css/pages/login.css') ;?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url('app-assets/css/pages/register.css') ;?>">
     <!-- END: Page Level CSS-->
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('app-assets/css/custom/custom.css') ;?>">
@@ -84,7 +85,7 @@
                         <li><a class="grey-text text-darken-1" href="#"><i class="material-icons">help_outline</i> Help</a></li>
                         <li class="divider"></li>
                         <li><a class="grey-text text-darken-1" href="logout"><i class="material-icons">lock_outline</i> Lock</a></li>
-                        <li><a class="grey-text text-darken-1" href="login"><i class="material-icons">keyboard_tab</i> Logout</a></li>
+                        <li><a class="grey-text text-darken-1" href="login"><i class="material-icons">keyboard_tab</i> Login</a></li>
                     </ul>
                 </div>
                 <nav class="display-none search-sm">
