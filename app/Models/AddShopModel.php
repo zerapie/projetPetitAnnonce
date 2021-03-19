@@ -4,5 +4,5 @@ use CodeIgniter\Model;
  
 class AddShopModel extends Model{
     protected $table = 'addShop';
-    protected $allowedFields = ['nom_vendeur','nom_article','favori','categorie','description','prix','article_creer'];
+    protected $allowedFields = ['id_vendeur','nom_article','favori','categorie','description','prix','article_creer'];
 }

@@ -28,6 +28,7 @@
                         <div class="row" id="ecommerce-products">
                             <div class="col s12 m3 l3 pr-0 hide-on-med-and-down animate fadeLeft">
                                 <div class="card">
+                                    <!-- debut liste gauche -->
                                     <div class="card-content">
                                         <span class="card-title">Categories</span>
                                         <hr class="p-0 mb-10">
@@ -214,39 +215,55 @@
                                             </label>
                                         </form>
                                     </div>
+                                    <!--  fin liste gauche  -->
                                 </div>
                             </div>
+
                             <div class="col s12 m12 l9 pr-0">
-                                <div class="col s12">
-                                    <div class="card animate fadeUp">
-                                        <div class="card-badge"><a class="white-text"> <b>On Offer</b> </a></div>
-                                        <div class="card-content">
-                                            <div class="row" id="product-four">
-                                                <div class="col m6 s12">
-                                                    <img src="../../../app-assets/images/cards/remote.png" class="responsive-img" alt="">
-                                                </div>
-                                                <div class="col m6 s12">
-                                                    <p>Powerbank</p>
-                                                    <h5>Game Remote</h5>
-                                                    <span class="new badge left ml-0 mr-2" data-badge-caption="">4.2 Star</span>
-                                                    <p>Availability: <span class="green-text">Available</span></p>
-                                                    <hr class="mb-5">
-                                                    <span class="vertical-align-top mr-4"><i class="material-icons mr-3">favorite_border</i>Wishlist</span>
-                                                    <ul class="list-bullet">
-                                                        <li class="list-item-bullet">Dual output USB interfaces</li>
-                                                        <li class="list-item-bullet">Compatible with all smartphones</li>
-                                                        <li class="list-item-bullet">Portable design and light weight</li>
-                                                        <li class="list-item-bullet">Battery type: Lithium-ion</li>
-                                                    </ul>
-                                                    <h5 class="red-text">$79.00 <span class="grey-text lighten-2 ml-3">$199.00</span> </h5>
-                                                    <a class="waves-effect waves-light btn gradient-45deg-deep-purple-blue z-depth-4 mt-2 mr-2">ADD TO
-                                                        CART</a>
-                                                    <a class="waves-effect waves-light btn gradient-45deg-purple-deep-orange z-depth-4 mt-2">BUY NOW</a>
+
+                                <?php foreach ($addShopDB as $key => $addShop) { 
+                                    $user = $userModel->where('user_id', $addShop['id_vendeur'])
+                                                      ->first();
+                                    ?>
+
+                                    <div class="col s12">
+                                        <div class="card animate fadeUp">
+                                            <div class="card-badge"><a class="white-text"> <b>On Offer</b> </a></div>
+                                            <div class="card-content">
+                                                <div class="row" id="product-four">
+
+                                                    <div class="col m6 s12">
+                                                        <img src="<?php echo $addShop['images'] ?> " class="responsive-img" alt="">
+                                                    </div>
+
+                                                    <div class="col m6 s12">
+                                                        <p><?php if (isset($user['user_id'])) { echo $user['user_name'] ;} ?></p>
+                                                        <h5><?php echo $addShop['nom_article'] ?> </h5>
+                                                        <span class="new badge left ml-0 mr-2" data-badge-caption="">4.2 Star</span>
+                                                        <p>Availability: <span class="green-text">Available</span></p>
+                                                        <p>Categorie: <span class="green-text"><?php echo $addShop['categorie'] ?> </span></p>
+                                                        <hr class="mb-5">
+                                                        <span class="vertical-align-top mr-4"><i class="material-icons mr-3">favorite_border</i>Wishlist</span>
+                                                        <ul class="list-bullet">
+                                                            <li class="list-item-bullet">Dual output USB interfaces</li>
+                                                            <li class="list-item-bullet">Compatible with all smartphones</li>
+                                                            <li class="list-item-bullet">Portable design and light weight</li>
+                                                            <li class="list-item-bullet">Battery type: Lithium-ion</li>
+                                                        </ul>
+                                                        <h5 class="red-text"><?php echo $addShop['prix'] ?> <span class="grey-text lighten-2 ml-3">$199.00</span> </h5>
+                                                        <a class="waves-effect waves-light btn gradient-45deg-deep-purple-blue z-depth-4 mt-2 mr-2">ADD TO
+                                                            CART</a>
+                                                        <a class="waves-effect waves-light btn gradient-45deg-purple-deep-orange z-depth-4 mt-2">BUY NOW</a>
+                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                    
+                                <?php   }   ?>
+
+
                                 <div class="col s12 m4 l4">
                                     <div class="card animate fadeLeft">
                                         <div class="card-badge"><a class="white-text"> <b>On Offer</b> </a></div>

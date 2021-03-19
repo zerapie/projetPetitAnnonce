@@ -1,0 +1,364 @@
+CRITICAL - 2021-03-19 09:44:15 --> Undefined variable $variable
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 222)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Dashboard.php(22): view('index')
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 09:55:02 --> Undefined variable $addShopDB
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 222)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Dashboard.php(22): view('index')
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Dashboard->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 10:07:37 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\AddShop->index()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddShop))
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-19 10:12:09 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-19 10:14:50 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-19 10:16:02 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-19 10:17:58 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-19 10:18:30 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-19 10:21:24 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-19 10:21:26 --> Call to a member function findAll() on null
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-03-19 10:21:40 --> Undefined variable $user
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 233)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(24): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 10:22:36 --> Undefined variable $user
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 233)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(23): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 10:32:16 --> Undefined variable $user
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 233)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(25): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 10:35:55 --> Undefined variable $querryuserModel
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 26)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 10:36:18 --> Undefined variable $user
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 233)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(30): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 10:39:57 --> Undefined array key "categorie"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(237): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 237)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(30): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 10:57:15 --> Undefined variable $userModel
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(30): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 10:58:15 --> Undefined variable $userModel
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(30): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 10:59:14 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(30): view('index', Array)
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-19 10:59:26 --> Undefined variable $userModel
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(30): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:02:50 --> Undefined property: App\Controllers\Home::$UserModel
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 25)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 11:14:55 --> Undefined property: App\Controllers\Home::$UserModel
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 25)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 11:17:06 --> Undefined property: App\Controllers\Home::$UserModel
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', '/Users/zerapie/...', 25)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 11:17:39 --> Undefined array key "user_id"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:18:29 --> Undefined array key "user_id"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:21:32 --> Undefined array key "user_name"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:23:55 --> Undefined array key "user_name"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:24:24 --> Undefined array key "user_name"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:24:25 --> Undefined array key "user_name"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:25:31 --> Undefined array key "user_id"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:34:01 --> Undefined variable $UserModel
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 11:34:16 --> Undefined array key "user_id"
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', '/Users/zerapie/...', 223)
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-19 11:40:35 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(224): CodeIgniter\BaseModel->first()
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#10 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#11 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#12 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2021-03-19 11:40:35 --> Unknown column 'id' in 'where clause'
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(224): CodeIgniter\BaseModel->first()
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#10 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#11 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#12 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+ERROR - 2021-03-19 11:41:00 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:314
+Stack trace:
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(224): CodeIgniter\BaseModel->first()
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#10 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#11 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#12 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2021-03-19 11:41:00 --> Unknown column 'id' in 'where clause'
+#0 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Views/index.php(224): CodeIgniter\BaseModel->first()
+#7 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(220): include('/Users/zerapie/...')
+#8 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/View/View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#9 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/Common.php(1217): CodeIgniter\View\View->render('index', Array, true)
+#10 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/app/Controllers/Home.php(29): view('index', Array)
+#11 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(936): App\Controllers\Home->index()
+#12 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/vendor/codeigniter4/framework/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 /Users/zerapie/Documents/GitHub/projetPetitAnnonce/public/index.php(44): CodeIgniter\CodeIgniter->run()
+#15 {main}

@@ -12,12 +12,13 @@ fonction save() enregistre les données dans la table "addShop" de la base de do
  */
 class AddShop extends Controller
 {
+    
     public function index()
     {
         //include helper form
         helper(['form']);
         
-        $data = [];
+        $data = [ ];
 
         echo view('common/Header');
         echo view('AddShop', $data);
